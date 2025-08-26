@@ -10,10 +10,10 @@
 
 <div align="center">
 
-### 🚀 **[EXPLORE PRANAY'S PORTFOLIO](https://pranay-portfolio.vercel.app)** | 💎 **[FEATURES](#-next-gen-features)** | 🛠️ **[TECH STACK](#-quantum-tech-stack)** | ⚡ **[INSTALLATION](#-lightning-fast-setup)**
+### 🚀 **[EXPLORE PRANAY'S PORTFOLIO]((https://mudigondapranay.github.io/pranay-portfolio/))** | 💎 **[FEATURES](#-next-gen-features)** | 🛠️ **[TECH STACK](#-quantum-tech-stack)** | ⚡ **[INSTALLATION](#-lightning-fast-setup)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg?style=for-the-badge)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-00ff88?style=for-the-badge&logo=vercel)](https://pranay-portfolio.vercel.app)
+[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-00ff88?style=for-the-badge&logo=vercel)]((https://mudigondapranay.github.io/pranay-portfolio/))
 [![React](https://img.shields.io/badge/Built_with-React-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org)
 [![Vite](https://img.shields.io/badge/Powered_by-Vite-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
 
@@ -88,11 +88,11 @@ mindmap
 
 <div align="center">
 
-### **[🚀 LAUNCH PORTFOLIO](https://pranay-portfolio.vercel.app)**
+### **[🚀 LAUNCH PORTFOLIO](https://mudigondapranay.github.io/pranay-portfolio/)**
 
 *Step into a world where design meets functionality, where every pixel has purpose, and where Pranay's passion for technology comes to life.*
 
-[![Portfolio Preview](https://img.shields.io/badge/🌟_LIVE_EXPERIENCE-Click_Here-00ff88?style=for-the-badge&logo=vercel)](https://pranay-portfolio.vercel.app)
+[![Portfolio Preview](https://img.shields.io/badge/🌟_LIVE_EXPERIENCE-Click_Here-00ff88?style=for-the-badge&logo=vercel)](https://mudigondapranay.github.io/pranay-portfolio/)
 
 </div>
 
@@ -251,9 +251,9 @@ flowchart TD
 
 ### **Ready to Collaborate? Let's Build the Future Together!**
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-667eea?style=for-the-badge)](https://pranay-portfolio.vercel.app)
-[![Email](https://img.shields.io/badge/📧_Email-Get_In_Touch-EA4335?style=for-the-badge)](mailto:your.email@example.com)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-667eea?style=for-the-badge)](https://mudigondapranay.github.io/pranay-portfolio/)
+[![Email](https://img.shields.io/badge/📧_Email-Get_In_Touch-EA4335?style=for-the-badge)](mailto:pranay0923@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mudigondapranay/)
 [![GitHub](https://img.shields.io/badge/💻_GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/mudigondapranay)
 
 </div>
