@@ -111,7 +111,7 @@ const Hero = () => {
         {/* Profile Tilted Card beside the introduction */}
 <div
   style={{
-    width: "520px",                // Match new width
+    width: "520px",                
     minWidth: "520px",
     display: "flex",
     justifyContent: "flex-end",
@@ -122,9 +122,9 @@ const Hero = () => {
 >
   <TiltedCard
     containerHeight="400px"
-    containerWidth="400px"          // Match new width
+    containerWidth="400px"          
     imageHeight="400px"
-    imageWidth="400px"              // Match new width
+    imageWidth="400px"              
     rotateAmplitude={12}
     scaleOnHover={1.08}
     showMobileWarning={false}
@@ -156,7 +156,7 @@ const Hero = () => {
       src={profileImg}
       alt="Pranay's Profile"
       style={{
-        width: "400px",             // Match new width
+        width: "400px",             
         height: "400px",
         objectFit: "cover",
         borderRadius: "24px",
