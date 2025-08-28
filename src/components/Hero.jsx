@@ -1,191 +1,93 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import TiltedCard from "./TiltedCard";
 import { styles } from "../styles";
 import Typewriter from "typewriter-effect";
-import profileImg from "../assets/profile.png"; // Update as needed
+import Prism from "./Prism.jsx";
+import ProfileCard from "./ProfileCard.jsx";
 
 const Hero = () => {
-  const vantaRef = useRef(null);
-
-  useEffect(() => {
-    let effect;
-    if (window.VANTA && window.VANTA.CLOUDS) {
-      effect = window.VANTA.CLOUDS({
-        el: vantaRef.current,
-        mouseControls: true,
-        touchControls: true,
-        minHeight: window.innerHeight,
-        minWidth: window.innerWidth,
-        scale: 1.0,
-        scaleMobile: 1.0,
-      });
-    }
-    const handleResize = () => {
-      if (vantaRef.current) {
-        vantaRef.current.style.width = window.innerWidth + "px";
-        vantaRef.current.style.height = window.innerHeight + "px";
-      }
-      if (effect && effect.resize) effect.resize();
-    };
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    return () => {
-      if (effect) effect.destroy();
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
-    <section className="relative w-full h-screen mx-auto" style={{ overflow: "hidden" }}>
-      {/* Background Vanta Effect */}
-      <div
-        ref={vantaRef}
-        style={{
-          position: "fixed",
-          width: "100vw",
-          height: "100vh",
-          top: 0,
-          left: 0,
-          zIndex: 0,
-          pointerEvents: "none",
-        }}
-      />
-      {/* Hero Content */}
-      <div
-        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-8`}
-        style={{ position: "relative", zIndex: 1 }}
-      >
-        {/* Left Accent */}
-        <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full" style={{ background: "#38B6FF" }} />
-          <div
-            className="w-1 sm:h-80 h-40"
-            style={{ background: "linear-gradient(to bottom, #263159, transparent)" }}
-          />
-        </div>
-        {/* Main Headline and Typewriter */}
-        <div>
-          <h1
-            className={`${styles.heroHeadText}`}
-            style={{
-              fontFamily: "'Montserrat', sans-serif",
-              fontWeight: 800,
-              letterSpacing: "0.5px",
-              color: "#263159",
-              fontSize: "clamp(2.5rem, 6vw, 4rem)",
-            }}
-          >
-            Hi, I'm{" "}
-            <span style={{ color: "#38B6FF", fontWeight: 900 }}>Pranay</span>
-          </h1>
-          <div
-            className={`${styles.heroSubText} mt-3`}
-            style={{
-              fontFamily: "'Montserrat', sans-serif",
-              fontWeight: 600,
-              color: "#6D7B8D",
-              letterSpacing: "0.3px",
-              fontSize: "clamp(1rem, 2.5vw, 1.5rem)",
-            }}
-          >
-            I do{" "}
-            <span style={{ color: "#38B6FF" }}>
-              <Typewriter
-                options={{
-                  strings: [
-                    "Data Analysis",
-                    "AI & ML",
-                    "Full Stack Development",
-                    "UI/UX Design",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                  deleteSpeed: 40,
-                  pauseFor: 1000,
-                }}
-              />
-            </span>
-          </div>
-        </div>
-        {/* Profile Tilted Card beside the introduction */}
-<div
-  style={{
-    width: "520px",                
-    minWidth: "520px",
-    display: "flex",
-    justifyContent: "flex-end",
-    alignItems: "center",
-    minHeight: "320px",
-    overflow: "visible",
-  }}
->
-  <TiltedCard
-    containerHeight="400px"
-    containerWidth="400px"          
-    imageHeight="400px"
-    imageWidth="400px"              
-    rotateAmplitude={12}
-    scaleOnHover={1.08}
-    showMobileWarning={false}
-    showTooltip={false}
-    displayOverlayContent={true}
-    overlayContent={
-      <div
-        style={{
-          position: "absolute",
-          top: "24px",
-          left: "50%",
-          transform: "translateX(-50%)",
-          background: "rgba(40,40,40,0.85)",
-          color: "#fff",
-          fontWeight: 600,
-          fontSize: "1.1rem",
-          borderRadius: "16px",
-          padding: "10px 44px",
-          boxShadow: "0 2px 16px rgba(0,0,0,0.09)",
-          pointerEvents: "none",
-          zIndex: 10,
-        }}
-      >
-        Pranay Kumar
+    <section className="relative w-full min-h-screen flex items-center justify-center bg-transparent overflow-hidden">
+      {/* Animated Prism Background */}
+      <div className="absolute inset-0 z-0">
+        <Prism
+          animationType="rotate"
+          timeScale={0.4}
+          height={2.5}
+          baseWidth={4}
+          scale={3.2}
+          hueShift={6}
+          colorFrequency={0.45}
+          noise={0.15}
+          glow={0.55}
+        />
+        {/* Optional: Overlay for extra readability */}
+        <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px] z-10"></div>
       </div>
-    }
-  >
-    <img
-      src={profileImg}
-      alt="Pranay's Profile"
-      style={{
-        width: "400px",             
-        height: "400px",
-        objectFit: "cover",
-        borderRadius: "24px",
-        boxShadow: "0 2px 18px #26315930"
-      }}
-    />
-  </TiltedCard>
-</div>
 
-        </div>
-      {/* Animated Scroll Down Indicator */}
-      <div
-        className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center"
-        style={{ zIndex: 2 }}
+      {/* Main Hero Content */}
+      <div 
+        className="relative z-20 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 px-6 py-24"
+        style={{ minHeight: "600px" }}
       >
+        <div className="flex flex-col items-start flex-1 gap-8">
+          {/* Accent and Headline */}
+          <div className="flex flex-row items-start gap-5">
+            {/* Accent Line */}
+            <div className="flex flex-col justify-center items-center mt-2">
+              <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+              <div className="w-1 h-40 sm:h-80 violet-gradient" />
+            </div>
+            {/* Main Title & Typewriter */}
+            <div>
+              <h1 className={`${styles.heroHeadText} text-white`}>
+                Hi, I'm <span className="text-[#915EFF]">Pranay</span>
+              </h1>
+              <p className={`${styles.heroSubText} mt-3 text-white-100`}>
+                I do&nbsp;
+                <Typewriter
+                  options={{
+                    strings: [
+                      "UI/UX Designer",
+                      "Ai & ML",
+                      "Frontend Developer",
+                      "Data Analyst"
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    loopCount: Infinity,
+                    deleteSpeed: "natural",
+                    pauseFor: 1000,
+                  }}
+                />
+              </p>
+            </div>
+          </div>
+
+          {/* (Optional) CTA Button Example */}
+          {/* <a href="#projects" className="mt-6 px-8 py-3 rounded-lg bg-[#915EFF] text-white font-semibold shadow hover:bg-[#7a4fd3] transition">View Projects</a> */}
+        </div>
+
+        {/* Profile Card */}
+        <div className="flex-shrink-0 w-full max-w-xs">
+          <ProfileCard />
+        </div>
+      </div>
+
+      {/* Animated Scroll Down Indicator */}
+      <div className="absolute bottom-10 left-0 right-0 w-full flex justify-center items-center z-20">
         <a href="#about">
-          <div
-            className="w-[35px] h-[64px] rounded-3xl border-4 flex justify-center items-start p-2"
-            style={{ borderColor: "#6D7B8D" }}
-          >
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 bg-white/20 backdrop-blur-md">
             <motion.div
-              animate={{ y: [0, 24, 0] }}
+              animate={{
+                y: [0, 24, 0],
+              }}
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full"
-              style={{ background: "#38B6FF", marginBottom: "4px" }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
             />
           </div>
         </a>
