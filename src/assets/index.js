@@ -8,6 +8,8 @@ import python from "./tech-stack/python.png";
 import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
 import java from "./tech-stack/java.png";
+import tableau from "./tech-stack/tableau.png";
+import figma from "./tech-stack/figma.png";
 
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
@@ -16,6 +18,11 @@ import payloadmaster from "./projects/payloadmaster.png";
 import mhft from "./projects/mhft.png";
 import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
+import devtown from "./projects/devtown.png";
+import Nba from "./projects/Nba.png";
+import blackcoffer from "./projects/blackcoffer.png";
+import crowdfunding from "./projects/crowdfunding.jpg";
+import hospitality from "./projects/hospitality.jpg";
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -59,4 +66,11 @@ export {
   menu,
   close,
   eduskill,
+  tableau,
+  figma,
+  devtown,
+  Nba,
+  blackcoffer,
+  crowdfunding,
+  hospitality,
 };
