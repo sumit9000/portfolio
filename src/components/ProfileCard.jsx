@@ -34,15 +34,15 @@ const easeInOutCubic = (x) =>
   x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
 
 const ProfileCardComponent = ({
-  avatarUrl = "/src/assets/profile-icon.png",
-  iconUrl = "/src/assets/github.png",
-  grainUrl = "/src/assets/.png",
+  avatarUrl = "https://res.cloudinary.com/dbbw8nr9s/image/upload/profile-icon_aeqcwr",
+  iconUrl = "https://res.cloudinary.com/dbbw8nr9s/image/upload/github_akq4da",
+  grainUrl = "https://res.cloudinary.com/dbbw8nr9s/image/upload/github_akq4da",
   behindGradient,
   innerGradient,
   showBehindGradient = true,
   className = "",
   enableTilt = true,
-  enableMobileTilt = false,
+  enableMobileTilt = true,
   mobileTiltSensitivity = 5,
   miniAvatarUrl,
   name = "Pranay Kumar",
