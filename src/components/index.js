@@ -6,7 +6,7 @@ import {
 } from "./canvas";
 
 import Hero from "./Hero";
-import PillNav from "./PillNav";
+import GooeyNav from "./GooeyNav";
 import About from "./About";
 import Tech from "./Tech";
 import Experience from "./Experience";
@@ -15,7 +15,7 @@ import Contact from "./Contact";
 
 export {
   Hero,
-  PillNav,
+  GooeyNav,
   About,
   Tech,
   Experience,

@@ -6,11 +6,13 @@ import logo from '/src/assets/profile-icon.png';
 
 // Define your nav items OUTSIDE the component
 const navItems = [
-  { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
-  { label: 'Experience', href: '/Experience' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' }
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Ordeals", href: "#experience" },
+  { label: "undertakings", href: "#works" },
+  { label: "Tech", href: "#tech" },
+  { label: "Reach", href: "#contact" },
+  { label: "Resume", href: "/Resume.pdf" },
 ];
 
 const App = () => {
@@ -22,13 +24,13 @@ const App = () => {
       }}
     >
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> 
           {/* Pass the navItems to PillNav */}
           <PillNav
             logo={logo}
             logoAlt="Company Logo"
             items={navItems}
-            activeHref="/"
+            activeHref="#home"
             className="custom-nav"
             ease="power2.easeOut"
             baseColor="#000000"
@@ -36,15 +38,37 @@ const App = () => {
             hoveredPillTextColor="#ffffff"
             pillTextColor="#000000"
           />
-          <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
+          <div className="main-content">
+            <section id="home" style={{ minHeight: "100vh" }}>
+              <Hero />
+            </section>
+            <section id="about" style={{ minHeight: "100vh" }}>
+              <About />
+            </section>
+            <section id="experience" style={{ minHeight: "100vh" }}>
+              <Experience />
+            </section>
+            <section id="works" style={{ minHeight: "100vh" }}>
+              <Works />
+            </section>
+            <section id="tech" style={{ minHeight: "100vh" }}>
+              <Tech />
+            </section>
+            <section id="contact" style={{ minHeight: "100vh" }}>
+              <Contact />
+            </section>
+          </div>
+          <div style={{
+            position: 'fixed',
+            inset: 0,
+            width: '100vw',
+            height: '100vh',
+            zIndex: -1,
+            pointerEvents: 'none',
+            overflow: 'hidden'
+          }}>
+            <StarsCanvas />
+          </div>
         </div>
       </div>
     </BrowserRouter>

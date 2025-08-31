@@ -1,6 +1,7 @@
 {
   "name": "Portfolio-Website",
   "private": true,
+  "homepage": "https://mudigondapranay.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

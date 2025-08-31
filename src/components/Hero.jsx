@@ -20,7 +20,6 @@ const Hero = () => (
         scale={1.1}
         opacity={0.8}
         mouseInteractive={true}
-        // This style ensures the canvas is always filling its parent
         style={{ width: "100%", height: "100%" }}
       />
     </div>
@@ -40,8 +39,9 @@ const Hero = () => (
             <h1 className={`${styles?.heroHeadText || "text-5xl font-bold"} text-white`}>
               Hi, I'm <span className="text-[#915EFF]">Pranay</span>
             </h1>
-            <p className={`${styles?.heroSubText || "text-xl"} mt-3 text-white-100`}>
+            <div className={`${styles?.heroSubText || "text-xl"} mt-3 text-white-100`}>
               I do&nbsp;
+              <div> </div>
               <Typewriter
                 options={{
                   strings: [
@@ -57,7 +57,7 @@ const Hero = () => (
                   pauseFor: 1300,
                 }}
               />
-            </p>
+            </div>
           </div>
         </div>
         {/* (Optional) Call-to-action */}
@@ -65,7 +65,7 @@ const Hero = () => (
       </div>
       {/* Right: Profile Card */}
       <div className="flex-shrink-0 w-full max-w-xs">
-        <ProfileCard />
+        <ProfileCard onContactClick={() => window.location = 'mailto:pranay0923@gmail.com'} />
       </div>
     </div>
 
