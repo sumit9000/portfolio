@@ -1,0 +1,26 @@
+.lanyard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Right-aligns both name and wrapper */
+}
+
+.lanyard-name {
+  margin-bottom: 8px; /* Space between name and wrapper */
+  font-weight: bold;
+  text-align: right;
+}
+
+.lanyard-wrapper {
+  position: relative;
+  z-index: 1;
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transform: scale(1);
+  transform-origin: center;
+  margin-left: auto;
+}
+
+

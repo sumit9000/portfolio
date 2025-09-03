@@ -2,8 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import Plasma from "./Plasma";
-import ProfileCard from "./ProfileCard";
 import { styles } from "../styles";
+import TiltedCard from "./TiltedCard";
+import Particles from "./Particles";
+import { tr } from "motion/react-client";
 
 const Hero = () => (
   <section
@@ -11,44 +13,45 @@ const Hero = () => (
     aria-label="Hero Section"
     style={{ background: "transparent", overflow: "hidden" }}
   >
-    {/* Fullscreen Plasma Background */}
-    <div className="plasma-bg" aria-hidden="true">
-      <Plasma
-        color="#915EFF"
-        speed={0.6}
-        direction="forward"
-        scale={1.1}
-        opacity={0.8}
-        mouseInteractive={true}
-        style={{ width: "100%", height: "100%" }}
-      />
-    </div>
+    <div style={{ width: '100%', height: '0px', position: 'relative' }}>
+  <Particles
+  particleColors={['#ffffff', '#ffffff']}
+  particleCount={200}
+  particleSpread={10}
+  speed={0.1}
+  particleBaseSize={100}
+  moveParticlesOnHover={true}
+  particleHoverFactor={3}
+  alphaParticles={false}
+  disableRotation={false}
+/>
+</div>
 
     {/* Main Hero Content */}
-    <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 px-6 py-24" style={{ minHeight: 600 }}>
-      {/* Left: Text and Typewriter */}
-      <div className="flex flex-col items-start flex-1 gap-8">
-        <div className="flex flex-row items-start gap-5">
+    <div className="relative z-1 w-full max-w-7xl mx-auto px-9 py-24 flex flex-col min-h-[400px] justify-center">
+      <div className="flex flex-row items-start gap-20">
+
+        {/* Accent Line + Title/Text in one flex block */}
+        <div className="flex flex-row items-start">
           {/* Accent Line */}
-          <div className="flex flex-col justify-center items-center mt-2 select-none">
+          <div className="flex flex-col justify-center items-center select-none">
             <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
             <div className="w-1 h-40 sm:h-80 violet-gradient" />
           </div>
-          {/* Title & Typewriter */}
-          <div>
+          {/* Title + Typewriter */}
+          <div className="ml-10"> {/* Adjust ml-2 for small gap, or remove for zero gap */}
             <h1 className={`${styles?.heroHeadText || "text-5xl font-bold"} text-white`}>
-              Hi, I'm <span className="text-[#915EFF]">Pranay</span>
+              Hi, I'm <span className="text-[#915EFF]">Sumit</span>
             </h1>
             <div className={`${styles?.heroSubText || "text-xl"} mt-3 text-white-100`}>
               I do&nbsp;
-              <div> </div>
               <Typewriter
                 options={{
                   strings: [
-                    "UI/UX Designer",
-                    "Ai & ML",
-                    "Frontend Developer",
-                    "Data Analyst",
+                    "Data Scientist And Analyst",
+                    "AI & ML Engineer",
+                    "Backend Developer",
+                    "Generative AI Developer",
                   ],
                   autoStart: true,
                   loop: true,
@@ -60,16 +63,28 @@ const Hero = () => (
             </div>
           </div>
         </div>
-        {/* (Optional) Call-to-action */}
-        {/* <a href="#projects" className="mt-6 px-8 py-3 rounded-lg bg-[#915EFF] text-white font-semibold shadow hover:bg-[#7a4fd3] transition">View Projects</a> */}
-      </div>
-      {/* Right: Profile Card */}
-      <div className="flex-shrink-0 w-full max-w-xs">
-        <ProfileCard onContactClick={() => window.location = 'mailto:pranay0923@gmail.com'} />
+
+        {/* Right: Tilted Card */}
+        <div className="flex-shrink-0">
+          <TiltedCard
+            imageSrc="https://res.cloudinary.com/dbbw8nr9s/image/upload/v1756710382/Sumit_DP_dvcoib.png"
+            altText="Sumit Kumar"
+            captionText="Sumit Kumar"
+            containerHeight="400px"
+            containerWidth="500px"
+            imageHeight="500px"
+            imageWidth="400px"
+            rotateAmplitude={12}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={false}
+            displayOverlayContent={false}
+          />
+        </div>
       </div>
     </div>
 
-    {/* Scroll Down Indicator */}
+    {/* Optional Scroll Down Indicator */}
     <div className="absolute bottom-10 left-0 right-0 w-full flex justify-center items-center z-20">
       <a href="#about" aria-label="Scroll to About section">
         <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 bg-white/20 backdrop-blur-md">

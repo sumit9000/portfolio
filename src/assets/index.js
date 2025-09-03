@@ -10,6 +10,13 @@ import cpp from "./tech-stack/cpp.png";
 import java from "./tech-stack/java.png";
 import tableau from "./tech-stack/tableau.png";
 import figma from "./tech-stack/figma.png";
+import iipssr from "./tech-stack/iipssr.png";
+import ai from "./tech-stack/ai.png";
+import imageclass from "./tech-stack/imageclass.png"; 
+import smart from "./tech-stack/smart.png";
+import semantic from "./tech-stack/semantic.png";
+import lanyard from "./lanyard/lanyard.png";
+import SumitDP from "./projects/SumitDP.png";
 
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
@@ -28,6 +35,8 @@ import gen3 from "./projects/gen3.png";
 import gandhi from "./projects/gandhi.png";
 import analyst from "./projects/analyst.png";
 import science from "./projects/science.png";
+import healthcare from "./projects/healthcare.png"; 
+
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -38,6 +47,13 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
+import mysql from "./tech/mysql.png";
+import metlab from "./tech/metlab.png";
+import hug from "./tech/hug.png";
+import r from "./tech/r.png";
+import kaggle from "./tech/kaggle.png";
+import neo from "./tech/neo.png";
+
 
 // Import common assets
 import logo from "./logo.svg";
@@ -46,6 +62,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import profileIcon from "./profile-icon.png";
 import divCodingIcon from "./div-coding-icon.png";
+import { i } from "maath/dist/index-0332b2ed.esm";
 
 export {
   mathwork,
@@ -80,4 +97,23 @@ export {
   blackcoffer,
   crowdfunding,
   hospitality,
+  gen2,
+  gen3,
+  gandhi,
+  analyst,  
+  science,
+  healthcare,
+  iipssr,
+  ai,
+  imageclass,
+  smart,
+  semantic,
+  lanyard,
+  SumitDP,
+  metlab,
+  mysql,
+  hug,
+  r,
+  kaggle,
+  neo,
 };

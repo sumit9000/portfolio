@@ -24,8 +24,25 @@ import {
   blackcoffer,
   crowdfunding,
   hospitality,
+  gen2,
+  gen3,
+  gandhi,
+  science,
+  analyst,
+  healthcare,
+  iipssr,
+  ai,
+  imageclass,
+  smart,
+  semantic,
+  SumitDP,
+  mysql,
+  metlab,
+  hug,
+  r,
+  kaggle,
+  neo,
 } from "../assets";
-
 
 export const navLinks = [
   { id: "about", title: "About" },
@@ -46,8 +63,8 @@ export const services = [
 ];
 
 export const technologies = [
-  { name: "HTML 5", icon: html },
-  { name: "CSS 3", icon: css },
+  { name: "Metlab", icon: metlab },
+  { name: "My SQL", icon: mysql },
   { name: "JavaScript", icon: javascript },
   { name: "React JS", icon: reactjs },
   { name: "Node JS", icon: nodejs },
@@ -55,14 +72,17 @@ export const technologies = [
   { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
   { name: "Python", icon: python },
-  { name: "SQL", icon: cpp },
+  { name: "Hug", icon: hug },
+  { name: "Kaggle", icon: kaggle },
+  { name: "R", icon: r },
+  { name: "Neo4j", icon: neo },
 ];
 
 export const experiences = [
   {
-    title: "Intern Data Analyst",
+    title: "Data Analyst",
     company_name: "AI Variant (Remote) | Bangalore",
-    icon: nodejs, // Replace with company logo if available
+    icon: ai, // Replace with company logo if available
     iconBg: "#161329",
     date: "Feb 2025 – Present",
     points: [
@@ -72,17 +92,31 @@ export const experiences = [
     ],
   },
   {
-    title: "UI/UX Designer",
-    company_name: "Freelance & Portfolio Projects | Remote",
-    icon: figma, // Replace with a UI/UX-relevant or personal icon
-    iconBg: "#eaeaea",
-    date: "Sep 2022 – Present", // Adjust as appropriate
+    title: "Data Science Intern",
+    company_name: "IISPPR | Remote",
+    icon: iipssr, // Replace with company logo if available
+    iconBg: "#383E56",
+    date: "AUG 2025 – Present", // Adjust as appropriate
     points: [
-      "Designed intuitive and visually appealing web/mobile interfaces for personal and freelance projects.",
-      "Optimized user flows, wireframes, and prototypes using Figma and Adobe XD.",
-      "Collaborated with developers to ensure pixel-perfect implementations and enhanced user experience.",
+      "Developed and deployed machine learning models using Python, improving predictive accuracy by 15%.",
+      "Conducted data cleaning, feature engineering, and exploratory data analysis to prepare datasets for modeling.",
+      "Collaborated with cross-functional teams to understand business requirements and translate them into technical solutions.",
     ],
   },
+  {
+    title: "Project Engineer Trainee",
+    company_name: "Gandhi Automation PVT LTD | On site",
+    icon: gandhi, 
+    iconBg: "#eaeaea",
+    date: "Oct 2024 – Feb 2025", // Adjust as appropriate
+    points: [
+      "Conducted cost vs. performance analysis and presented findings to leadership, driving changes in operational workflows.",
+
+      "Designed scalable data pipelines to support continuous data integration from transactional systems to dashboards.",
+      "Facilitated training sessions for internal users on interpreting KPIs and using visual analytics tools effectively",
+    ],
+  },
+  
 ];
 
 export const projects = [
@@ -97,8 +131,39 @@ export const projects = [
       { name: "Responsive UI", color: "yellow-text-gradient" },
     ],
     image: mhft,
-    source_code_link: "https://github.com/mudigondapranay/Fashion-chatbot",
+    source_code_link: "https://github.com/sumit9000/Fashion-Chatbot-Backend",
     live_demo: "https://fashionchatbot.in",
+  },
+  {
+    name: "Advanced Semantic Search & Information Retrieval System",
+    description:
+      "Implemented sentence embedding pipeline using Hugging Face Transformers (sentence-BERT models) generating 384/768-dimension.",
+    tags: [
+      { name: "AI", color: "blue-text-gradient" },
+      { name: "Transformers", color: "green-text-gradient" },
+      { name: "RAG", color: "pink-text-gradient" },
+      { name: "Search", color: "green-text-gradient" },
+      { name: "Cosine Similarities", color: "yellow-text-gradient" },
+      { name: "BERT", color: "yellow-text-gradient" },
+    ],
+    image: gen2,
+    source_code_link: "", 
+  },
+  {
+    name: "Advanced Rag Systems & Multimodal AI",
+    description:
+      "•Integrated document parsing using Unstructured.io for complex PDF processing with OCR capabilities.",
+    tags: [
+      { name: "RAG", color: "blue-text-gradient" },
+      { name: "Langchain", color: "green-text-gradient" },
+      { name: "Pipeline", color: "pink-text-gradient" },
+      { name: "Chroma", color: "yellow-text-gradient" },
+      { name: "SQL-Lite", color: "yellow-text-gradient" },
+      { name: "Metrices", color: "yellow-text-gradient" },
+
+    ],
+    image: gen3,
+    source_code_link: "", // 
   },
   {
     name: "Crowd Funding Analytics",
@@ -113,7 +178,7 @@ export const projects = [
       { name: "Analytics", color: "yellow-text-gradient" },
     ],
     image: crowdfunding,
-    source_code_link: "https://github.com/mudigondapranay/Crowd-funding", // Update with actual repo if available
+    source_code_link: "https://github.com/sumit9000/crowdFunding", // Update with actual repo if available
   },
   {
     name: "Hospitality Analytics",
@@ -129,85 +194,61 @@ export const projects = [
 
     ],
     image: hospitality,
-    source_code_link: "https://github.com/mudigondapranay/Hospitality", // 
+    source_code_link: "https://github.com/sumit9000/Hospitality", // 
   },
   {
-    name: " DevTown UI Design System",
+    name: " Health care Analytics",
     description:
-      "DevTown UI Website Design showcases a modern, visually appealing interface focused on user experience, intuitive navigation, and responsive layouts, highlighting creative design elements and seamless interactions for a next-generation web platform.",
+      "This project analyzes healthcare data to uncover trends in patient demographics, treatment efficiency, sector performance, and operational challenges. The dashboards and visualizations offer a 360° view of healthcare services.",
     tags: [
-      { name: "UI Design", color: "blue-text-gradient" },
-  { name: "Website Design", color: "green-text-gradient" },
-  { name: "User Experience", color: "pink-text-gradient" },
-  { name: "Responsive Design", color: "yellow-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/mudigondapranay/DevTown-Website-UI-design", // Update with actual repo if available
-  },
-  {
-    name: "HaveMore Design System",
-    description:
-      "HaveMore project on Behance showcases a visually engaging digital experience, highlighting UI design, branding, user-centered layouts, modern hospitality solutions, seamless multi-platform interaction, creative storytelling, and innovative digital brand identity for business growth.",
-    tags: [
-      { name: "Visual Design", color: "blue-text-gradient" },
-      { name: "UX/UI", color: "green-text-gradient" },
-      { name: "Prototyping", color: "pink-text-gradient" },
-        { name: "Behance Portfolio", color: "yellow-text-gradient" }
-    ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/mudigondapranay/HaveMore-design", 
-  },
-  {
-    name: "Hotel Booking Website & App UI",
-    description:
-      "Hotel Booking Website & App delivers a modern hospitality platform with sleek UI/UX, end-to-end booking, robust user management, admin analytics, and secure payments. Designed for web and mobile, it features real-time filters, reviews, responsive layouts, and branded microinteractions.",
-    tags: [
-       { name: "Website Design", color: "green-text-gradient" },
-  { name: "User Experience", color: "pink-text-gradient" },
+      { name: "SQL", color: "blue-text-gradient" },
+      { name: "Tableau", color: "green-text-gradient" },
+      { name: "Power BI", color: "pink-text-gradient" },
+      { name: "Excel", color: "yellow-text-gradient" },
+      { name: "Data", color: "yellow-text-gradient" },
+      { name: "Analytics", color: "yellow-text-gradient" },
 
     ],
-    image: sketcher,
-    source_code_link: "https://github.com/mudigondapranay/Hotel-booking-website-and-app-UI", // 
+    image: healthcare,
+    source_code_link: "https://github.com/sumit9000/Health_Care-Analytics-", // Update with actual repo if available
   },
   {
-    name: "DevTown Bootcamp Registration",
+    name: "AI-Enhanced Resume Analyzer",
     description:
-      "DevTown Bootcamp Registration features a modern, multi-step UI for seamless sign-ups, referral unlocks, and integrated social authentication. Responsive, mobile-friendly design ensures an intuitive registration experience, promoting engagement and viral reach for DevTown bootcamp eventss.",
+      "Implemented semantic similarity search using OpenAI sentence embeddings to match candidate profiles with job descriptions via cosine similarity.",
     tags: [
-{ name: "Referral System", color: "yellow-text-gradient" },
-  { name: "Responsive Design", color: "blue-text-gradient" },
-  { name: "Bootcamp", color: "green-text-gradient" },
-  { name: "Social Login", color: "pink-text-gradient" }
+      { name: "Database", color: "blue-text-gradient" },
+      { name: "Graph RAG-Neo 4J", color: "green-text-gradient" },
+      { name: "Fine tuning", color: "pink-text-gradient" },
+        { name: "Deep-Layers", color: "yellow-text-gradient" }
     ],
-    image: devtown,
-    source_code_link: "https://github.com/mudigondapranay/DevTown-Bootcamp-registration", 
-  },
-    {
-    name: "Blackcoffer Figma Design Assets",
-    description:
-      "Blackcoffer Figma Design Assets offers high-quality, exported mobile app UI/UX components, mockups, and detailed PDF documentation—streamlining developer handoff, ensuring visual consistency, and supporting collaborative, user-centric application design and testing workflows across teams.",
-    tags: [
-       { name: "UI Kit", color: "blue-text-gradient" },
-  { name: "Mobile App", color: "green-text-gradient" },
-  { name: "Design Assets", color: "yellow-text-gradient" },
-    ],
-    image: blackcoffer,
-    source_code_link: "https://github.com/mudigondapranay/Blackcoffer-Figma-Designs", // Update with actual repo if available
+    image: smart,
+    source_code_link: "", 
   },
   {
-    name: "Basketball League Table Predictions",
+    name: "Semantic Search",
     description:
-      "Basketball League Table Predictions features interactive, auto-updating dashboards for NBA-inspired analytics, with live scores, advanced game cards, responsive tables, and modern Figma-based UI for analysts, fans, and brand-driven visualizations.",
+      "Designed and deployed a semantic search system leveraging NLP and machine learning for context-aware information retrieval Utilized HuggingFace Sentence Transformers to generate vector embeddings, stored efficiently in Pinecone vector database.",
     tags: [
-      { name: "Data Visualization", color: "blue-text-gradient" },
-      { name: "Sports Analytics", color: "green-text-gradient" },
-      { name: "UI Design", color: "pink-text-gradient" },
-       { name: "Live Dashboard", color: "yellow-text-gradient" },
-      { name: "Basketball", color: "blue-text-gradient" },
-      { name: "NBA", color: "green-text-gradient" },
+       { name: "Cosine similarity", color: "green-text-gradient" },
+  { name: "RAG", color: "pink-text-gradient" },
+
     ],
-    image: Nba,
-    source_code_link: "https://github.com/mudigondapranay/Basketball-league-table-predictions", // Update with actual repo if available
+    image: semantic,
+    source_code_link: "", // 
+  },
+  {
+    name: "Image-Based Person Classification using CNN",
+    description:
+      "Developed a binary image classification model using Convolutional Neural Networks (CNNs) to differentiate between two individuals. Implemented and trained the model with Keras on a TensorFlow backend, optimizing for accuracy and generalization.",
+    tags: [
+{ name: "CNN", color: "yellow-text-gradient" },
+  { name: "Deep Learning", color: "blue-text-gradient" },
+  { name: "Hidden Layers", color: "green-text-gradient" },
+  { name: "Fine tuning", color: "pink-text-gradient" }
+    ],
+    image: imageclass,
+    source_code_link: "", 
   },
 ];
 

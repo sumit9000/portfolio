@@ -3,8 +3,10 @@ import { BrowserRouter } from 'react-router-dom';
 import { About, Contact, Experience, Hero, StarsCanvas, Tech, Works } from './components';
 import PillNav from './components/PillNav';
 import logo from '/src/assets/profile-icon.png';
+import TargetCursor from './components/TargetCursor';
+import { SumitDP } from './assets';
+import LightRays from './components/LightRays'; // <--- Import your LightRays component
 
-// Define your nav items OUTSIDE the component
 const navItems = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
@@ -23,11 +25,36 @@ const App = () => {
         v7_relativeSplatPath: true,
       }}
     >
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> 
-          {/* Pass the navItems to PillNav */}
+      {/* Custom Cursor at the top! */}
+      <TargetCursor spinDuration={3} hideDefaultCursor={true} />
+
+      <div className="relative z-0 bg-primary" style={{ minHeight: "100vh" }}>
+        {/* Animated light rays background */}
+        <LightRays
+  raysOrigin="top-center"
+  raysColor="#ffffff"
+  raysSpeed={1.2}
+  lightSpread={2.9}
+  rayLength={1.1}
+  followMouse={false}
+  mouseInfluence={0.05}
+  noiseAmount={0.1}
+  distortion={0.06}
+  className="custom-rays"
+  style={{
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100vw',
+    height: '100vh',
+    zIndex: 0,
+    pointerEvents: 'none'
+  }}
+/>
+
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <PillNav
-            logo={logo}
+            logo={SumitDP}
             logoAlt="Company Logo"
             items={navItems}
             activeHref="#home"
@@ -38,7 +65,7 @@ const App = () => {
             hoveredPillTextColor="#ffffff"
             pillTextColor="#000000"
           />
-          <div className="main-content">
+          <div className="main-content" style={{ position: 'relative', zIndex: 2 }}>
             <section id="home" style={{ minHeight: "100vh" }}>
               <Hero />
             </section>
@@ -57,17 +84,6 @@ const App = () => {
             <section id="contact" style={{ minHeight: "100vh" }}>
               <Contact />
             </section>
-          </div>
-          <div style={{
-            position: 'fixed',
-            inset: 0,
-            width: '100vw',
-            height: '100vh',
-            zIndex: -1,
-            pointerEvents: 'none',
-            overflow: 'hidden'
-          }}>
-            <StarsCanvas />
           </div>
         </div>
       </div>
