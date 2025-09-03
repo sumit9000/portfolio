@@ -23,6 +23,11 @@ import Nba from "./projects/Nba.png";
 import blackcoffer from "./projects/blackcoffer.png";
 import crowdfunding from "./projects/crowdfunding.jpg";
 import hospitality from "./projects/hospitality.jpg";
+import gen2 from "./projects/gen2.png";
+import gen3 from "./projects/gen3.png";
+import gandhi from "./projects/gandhi.png";
+import analyst from "./projects/analyst.png";
+import science from "./projects/science.png";
 
 // Import tech logos
 import css from "./tech/css.png";
