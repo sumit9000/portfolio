@@ -1,8 +1,8 @@
 <div align="center">
 
-![Pranay's Digital Universe](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=300&section=header&text=PRANAY%27S%20DIGITAL%20UNIVERSE&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38&descAlign=62&descAlignY=51&desc=Architecting%20Tomorrow's%20Web%20Today)
+![Sumit's Digital Universe](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=300&section=header&text=SUMIT%27S%20AI%20UNIVERSE&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38&descAlign=62&descAlignY=51&desc=From%20Dashboards%20to%20Deep%20Learning%20%7C%20AI%20Engineer)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Full-Stack+Innovator+%7C+UI%2FUX+Visionary;Crafting+Digital+Experiences+That+Inspire;Where+Technology+Meets+Artistry)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&width=800&height=100&lines=AI+Engineer+%7C+Data+Scientist+%7C+Full-Stack+Developer;Turning+Caffeine+into+Code+and+Chaos+into+Clean+Data;Building+Intelligent+Systems+That+Matter)](https://git.io/typing-svg)
 
 </div>
 
@@ -10,128 +10,50 @@
 
 <div align="center">
 
-### 🚀 **[EXPLORE PRANAY'S PORTFOLIO]((https://mudigondapranay.github.io/pranay-portfolio/))** | 💎 **[FEATURES](#-next-gen-features)** | 🛠️ **[TECH STACK](#-quantum-tech-stack)** | ⚡ **[INSTALLATION](#-lightning-fast-setup)**
+### 🚀 **[EXPLORE SUMIT'S PORTFOLIO](https://github.com/sumit9000)** | 💎 **[AI PROJECTS](#-featured-ai-projects)** | 🛠️ **[TECH STACK](#-quantum-tech-stack)** | ⚡ **[ACHIEVEMENTS](#-achievements)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg?style=for-the-badge)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-00ff88?style=for-the-badge&logo=vercel)]((https://mudigondapranay.github.io/pranay-portfolio/))
-[![React](https://img.shields.io/badge/Built_with-React-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org)
-[![Vite](https://img.shields.io/badge/Powered_by-Vite-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
+[![Live Profile](https://img.shields.io/badge/LIVE-PROFILE-00ff88?style=for-the-badge&logo=github)](https://github.com/sumit9000)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sumitkumarss/)
+[![AI Variant](https://img.shields.io/badge/AI-VARIANT-FF6B6B?style=for-the-badge&logo=artificial-intelligence)](https://github.com/sumit9000)
 
 </div>
 
 ---
 
-## 🌟 **PRANAY'S VISION**
+## 🌟 **SUMIT'S AI VISION**
 
-> *"In the intersection of creativity and code, I architect digital experiences that don't just function—they inspire."*
+> *"From dashboards to deep learning, I turn caffeine into code and chaos into clean data. Let's build cool stuff together!"*
 
-**Welcome to Pranay's Digital Ecosystem** - A next-generation portfolio that transcends traditional boundaries. This isn't just a website; it's a testament to innovation, a showcase of cutting-edge development, and a window into the future of web experiences.
-
-**🎯 Mission:** To push the boundaries of what's possible in web development while creating meaningful, user-centric digital solutions.
+**Welcome to Sumit Kumar's AI Ecosystem** - A comprehensive portfolio showcasing advanced AI engineering, data science mastery, and full-stack development expertise. Based in Kolkata, working at AI Variant, and passionate about creating intelligent systems that solve real-world problems.
 
 ---
 
-## 🔮 **NEXT-GEN FEATURES**
+## 🧠 **FEATURED AI PROJECTS**
 
-<div align="center">
+### 🤖 **Fashion AI Chatbot Ecosystem**
+- **[Fashion-Chatbot-Backend](https://github.com/sumit9000/024355f1)** - FastAPI-powered backend with LLMs and vector search ⭐ 1
+- **[Fashion-Chatbot-Frontend](https://github.com/sumit9000/5adbeb31)** - Elegant React interface for AI fashion recommendations ⭐ 1
+- **Technologies**: Python, FastAPI, JavaScript, Vector Databases, LLMs
 
-```mermaid
-mindmap
-  root((PRANAY'S
-    PORTFOLIO
-    ECOSYSTEM))
-    🎨 IMMERSIVE UI
-      ✨ Micro-Interactions
-      🌊 Fluid Animations
-      🎭 3D Visual Elements
-      📱 Responsive Perfection
-    🚀 PERFORMANCE
-      ⚡ Lightning Load Times
-      🔄 Smooth Transitions
-      📈 Optimized Rendering
-      🎯 SEO Excellence
-    🛠️ ARCHITECTURE
-      ⚛️ React 18+ Features
-      🔥 Vite Build System
-      🎨 Tailwind CSS
-      📧 Smart Contact Forms
-    🌐 EXPERIENCE
-      👤 Personal Branding
-      💼 Project Showcases
-      📊 Skill Visualization
-      🤝 Interactive Contact
-```
+### 🏥 **Healthcare Analytics Suite**
+- **[Health_Care-Analytics](https://github.com/sumit9000/8ab81333)** - Data-driven healthcare operations optimization
+- **Technologies**: SQL, Python, Tableau, PowerBI, Excel
 
-</div>
+### 🤝 **Multi-Agent AI Systems**
+- **[BTN-Agentic-AI-Automation-System](https://github.com/sumit9000/208ebf97)** - Intelligent AI agents for global sales automation
+- **[CrewAI_Agent](https://github.com/sumit9000/CrewAI_Agent)** - Collaborative multi-agent workflows
+- **[Autogen_with_Agentic](https://github.com/sumit9000/Autogen_with_Agentic)** - Advanced conversation-based AI systems 🍴 1
 
-### **🎨 IMMERSIVE USER EXPERIENCE**
+### 🛡️ **AI Security & Safety**
+- **[Prompt-Guard](https://github.com/sumit9000/Prompt-Guard)** - Prompt engineering security framework
+- **[Prompt-injections](https://github.com/sumit9000/Prompt-injections)** - LLM security research and defense 🍴 1
+- **[Nemo_Guardrails](https://github.com/sumit9000/Nemo_Guardrails)** - Conversational AI safety systems
 
-| Feature | Pranay's Innovation |
-|---------|-------------------|
-| **🌊 Fluid Animations** | Crafted with Framer Motion for buttery-smooth 60fps experiences |
-| **🎭 3D Interactive Elements** | Three.js powered visuals that respond to user interaction |
-| **📱 Adaptive Design** | Mobile-first architecture that scales beautifully across all devices |
-| **✨ Micro-Interactions** | Every click, hover, and scroll tells a story |
-| **🎯 Performance Optimized** | Sub-second load times with intelligent code splitting |
-
-### **🚀 TECHNICAL EXCELLENCE**
-
-- **⚡ Lightning-Fast Performance:** Vite-powered development with optimized production builds
-- **🔧 Modern React Patterns:** Hooks, Context, and latest React 18+ features
-- **🎨 Tailwind CSS Mastery:** Utility-first styling with custom design system
-- **📧 Smart Communication:** EmailJS integration for seamless contact functionality
-- **🔍 SEO Optimized:** Structured data and meta optimization for discoverability
-
----
-
-## 🌐 **EXPERIENCE PRANAY'S UNIVERSE**
-
-<div align="center">
-
-### **[🚀 LAUNCH PORTFOLIO](https://mudigondapranay.github.io/pranay-portfolio/)**
-
-*Step into a world where design meets functionality, where every pixel has purpose, and where Pranay's passion for technology comes to life.*
-
-[![Portfolio Preview](https://img.shields.io/badge/🌟_LIVE_EXPERIENCE-Click_Here-00ff88?style=for-the-badge&logo=vercel)](https://mudigondapranay.github.io/pranay-portfolio/)
-
-</div>
-
----
-
-## ⚡ **LIGHTNING-FAST SETUP**
-
-### **🔧 Prerequisites**
-- Node.js 18+ (Latest LTS recommended)
-- npm or yarn package manager
-- Git for version control
-
-### **🚀 Quick Start Guide**
-
-```bash
-# 1️⃣ Clone Pranay's Portfolio Repository
-git clone https://github.com/mudigondapranay/pranay-portfolio.git
-
-# 2️⃣ Navigate to the Project Universe
-cd pranay-portfolio
-
-# 3️⃣ Install Dependencies (Lightning Speed with npm)
-npm install
-
-# 4️⃣ Launch Development Server
-npm run dev
-
-# 5️⃣ Experience the Magic
-# Open http://localhost:3000 in your browser
-```
-
-### **⚙️ Available Commands**
-
-| Command | Action | Purpose |
-|---------|--------|---------|
-| `npm run dev` | 🚀 Start development server | Hot-reload development experience |
-| `npm run build` | 📦 Create production build | Optimized, deployment-ready bundle |
-| `npm run preview` | 👀 Preview production build | Test production build locally |
-| `npm run lint` | 🔍 Check code quality | ESLint analysis for clean code |
+### 📊 **Business Intelligence & Analytics**
+- **[Hospitality](https://github.com/sumit9000/Hospitality)** - Real-world booking data analysis ⭐ 2 🍴 2
+- **[crowdFunding](https://github.com/sumit9000/crowdFunding)** - Kickstarter success pattern analysis ⭐ 1 🍴 2
+- **[Trader-Performance-Analysis](https://github.com/sumit9000/9e8a8a0f)** - Market sentiment and performance correlation
 
 ---
 
@@ -139,143 +61,124 @@ npm run dev
 
 <div align="center">
 
-### **Pranay's Carefully Curated Technology Arsenal**
+### **AI & Machine Learning**
+![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Advanced-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-Advanced-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Expert-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-<table>
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=react" width="80" /><br>
-<strong>React 18+</strong><br>
-<em>UI Foundation</em>
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=vite" width="80" /><br>
-<strong>Vite</strong><br>
-<em>Build Tool</em>
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=tailwind" width="80" /><br>
-<strong>Tailwind CSS</strong><br>
-<em>Styling System</em>
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=threejs" width="80" /><br>
-<strong>Three.js</strong><br>
-<em>3D Graphics</em>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=javascript" width="80" /><br>
-<strong>JavaScript ES6+</strong><br>
-<em>Core Language</em>
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=nodejs" width="80" /><br>
-<strong>Node.js</strong><br>
-<em>Runtime Environment</em>
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=vercel" width="80" /><br>
-<strong>Vercel</strong><br>
-<em>Deployment Platform</em>
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=git" width="80" /><br>
-<strong>Git</strong><br>
-<em>Version Control</em>
-</td>
-</tr>
-</table>
+### **AI Frameworks & Tools**
+![FastAPI](https://img.shields.io/badge/FastAPI-Expert-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-Advanced-121011?style=for-the-badge&logo=chainlink&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-Advanced-FF6B6B?style=for-the-badge&logo=artificial-intelligence)
+![AutoGen](https://img.shields.io/badge/AutoGen-Advanced-0078D4?style=for-the-badge&logo=microsoft)
+
+### **Data Science & Analytics**
+![Pandas](https://img.shields.io/badge/Pandas-Expert-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Expert-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Expert-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-Advanced-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![PowerBI](https://img.shields.io/badge/PowerBI-Advanced-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+### **Full-Stack Development**
+![JavaScript](https://img.shields.io/badge/JavaScript-Advanced-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-Advanced-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-Expert-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Advanced-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### **DevOps & Tools**
+![Git](https://img.shields.io/badge/Git-Expert-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Advanced-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-Expert-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
-### **🎯 Technology Choices & Pranay's Rationale**
-
-- **⚛️ React:** Chosen for its component-based architecture and vibrant ecosystem
-- **🔥 Vite:** Lightning-fast development with instant HMR and optimized builds
-- **🎨 Tailwind CSS:** Utility-first approach enabling rapid, consistent styling
-- **🌐 Three.js:** Bringing immersive 3D experiences to the web
-- **📧 EmailJS:** Serverless contact form solution for seamless communication
-- **🚀 Vercel:** Edge network deployment for global performance
-
 ---
 
-## 🏗️ **PROJECT ARCHITECTURE**
+## 📈 **ACHIEVEMENTS**
 
 <div align="center">
 
-```mermaid
-flowchart TD
-    A[🏠 Portfolio App] --> B[📱 Responsive Layout]
-    B --> C[🎨 Hero Section]
-    B --> D[👨‍💼 About Pranay]
-    B --> E[💼 Experience]
-    B --> F[🚀 Projects]
-    B --> G[🛠️ Skills]
-    B --> H[📞 Contact]
-    
-    C --> I[✨ 3D Animations]
-    D --> J[📊 Interactive Stats]
-    E --> K[📈 Timeline View]
-    F --> L[🎭 Project Cards]
-    G --> M[📊 Skill Meters]
-    H --> N[📧 EmailJS Form]
-    
-    style A fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
-    style I fill:#ff6b6b,stroke:#ee5a52,stroke-width:2px,color:#fff
-    style L fill:#4ecdc4,stroke:#44a08d,stroke-width:2px,color:#fff
-    style N fill:#45b7d1,stroke:#3498db,stroke-width:2px,color:#fff
+### 🏆 **GitHub Stats**
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sumit9000&layout=compact&theme=radical&hide_border=true)
+
+### 📊 **Contribution Graph**
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sumit9000&theme=react-dark&hide_border=true)
+
+### 🎯 **Key Metrics**
+- 🗂️ **49 Public Repositories** - Diverse AI, ML, and full-stack projects
+- ⭐ **19+ Stars** - Community recognition for quality work
+- 🍴 **Multiple Forks** - Projects being used and extended by others
+- 👥 **2 Followers, Following 21** - Active in the developer community
+- 🏢 **AI Variant** - Professional AI engineering experience
+- 📍 **Kolkata, India** - Contributing to the global tech ecosystem
+
+</div>
+
+---
+
+## 🌐 **COLLABORATION WITH PRANAY KUMAR**
+
+### 🤝 **Joint Expertise**
+**Pranay Kumar** - Advanced Full-Stack Developer at SRM University, brings complementary expertise in:
+- **React Development** - Advanced component architecture and modern web frameworks
+- **Python Engineering** - Backend systems and API development
+- **AI Innovation** - Cutting-edge artificial intelligence applications
+- **Fashion Tech** - Specialized in AI-powered fashion recommendation systems
+
+### 🎯 **Combined Strengths**
+- **Sumit's AI/ML Mastery** + **Pranay's Full-Stack Excellence** = **Comprehensive Tech Solutions**
+- **Data Science Expertise** + **Modern Web Development** = **Intelligent User Experiences**
+- **Multi-Agent Systems** + **React Applications** = **Next-Gen Interactive Platforms**
+
+---
+
+## 🚀 **LIGHTNING-FAST SETUP**
+
+```bash
+# Clone any of Sumit's repositories
+git clone https://github.com/sumit9000/[repository-name]
+cd [repository-name]
+
+# Install dependencies (Python projects)
+pip install -r requirements.txt
+
+# Install dependencies (JavaScript projects)
+npm install
+
+# Run the project
+# For Python: python main.py
+# For JavaScript: npm start
 ```
 
-</div>
-
 ---
 
-## 🎯 **PRANAY'S PORTFOLIO HIGHLIGHTS**
-
-### **🌟 What Makes This Portfolio Special**
-
-- **🎨 Personal Branding:** Every element reflects Pranay's unique design philosophy
-- **🚀 Performance First:** Optimized for speed without compromising on visual appeal
-- **📱 Mobile Excellence:** Crafted with mobile users as a priority
-- **🔧 Developer Experience:** Clean code architecture for easy maintenance and scaling
-- **🌐 Global Accessibility:** Optimized for users worldwide with fast load times
-- **💡 Innovation Showcase:** Demonstrates cutting-edge web development techniques
-
----
-
-## 📬 **CONNECT WITH PRANAY**
+## 📞 **CONNECT & COLLABORATE**
 
 <div align="center">
 
-### **Ready to Collaborate? Let's Build the Future Together!**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_Sumit-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumitkumarss/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow_Sumit-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sumit9000)
+[![Email](https://img.shields.io/badge/Email-Business_Inquiries-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@sumit.dev)
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-667eea?style=for-the-badge)](https://mudigondapranay.github.io/pranay-portfolio/)
-[![Email](https://img.shields.io/badge/📧_Email-Get_In_Touch-EA4335?style=for-the-badge)](mailto:pranay0923@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mudigondapranay/)
-[![GitHub](https://img.shields.io/badge/💻_GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/mudigondapranay)
+### 💡 **Open for Collaboration**
+- 🤖 AI/ML Projects
+- 📊 Data Science Consulting
+- 🌐 Full-Stack Development
+- 🧠 Multi-Agent AI Systems
+- 💼 Freelance & Full-time Opportunities
 
 </div>
-
----
-
-## 📄 **LICENSE**
-
-MIT License © 2025 **Pranay Mudigonda** - Crafted with ❤️ and endless cups of ☕
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer&fontSize=20&fontColor=ffffff&animation=twinkling)
+### 🌟 **"From dashboards to deep learning, turning caffeine into code and chaos into clean data."**
 
-### **🌟 "Code is Poetry, Design is Art, Innovation is the Future" - Pranay** 🌟
+**Built with ❤️ by Sumit Kumar | Powered by AI Innovation | Kolkata, India 🇮🇳**
 
-*Thank you for visiting Pranay's Digital Universe. Star ⭐ this repository if you found it inspiring!*
+![Profile Views](https://komarev.com/ghpvc/?username=sumit9000&color=blueviolet&style=for-the-badge)
 
 </div>
-#   P o r t f o l i o  
- 
+
