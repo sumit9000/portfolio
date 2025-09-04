@@ -100,7 +100,6 @@
 <div align="center">
 
 ### 🏆 **GitHub Stats**
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sumit9000&show_icons=true&theme=radical&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sumit9000&layout=compact&theme=radical&hide_border=true)
 
 ### 📊 **Contribution Graph**
@@ -182,3 +181,4 @@ npm install
 ![Profile Views](https://komarev.com/ghpvc/?username=sumit9000&color=blueviolet&style=for-the-badge)
 
 </div>
+
