@@ -145,10 +145,11 @@
 
 @font-face {
   font-family: 'FKGroteskNeue';
-  src: url('/fonts/FKGroteskNeue.woff2') format('woff2');
+  src: url('https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 body {
   font-family: 'FKGroteskNeue', Arial, sans-serif;
 }
+
