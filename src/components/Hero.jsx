@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import TiltedCard from "./TiltedCard";
 import Particles from "./Particles";
 import { tr } from "motion/react-client";
+import { SumitDP } from "../assets";
 
 const Hero = () => (
   <section
@@ -67,7 +68,7 @@ const Hero = () => (
         {/* Right: Tilted Card */}
         <div className="flex-shrink-0">
           <TiltedCard
-            imageSrc="https://res.cloudinary.com/dbbw8nr9s/image/upload/v1756710382/Sumit_DP_dvcoib.png"
+            imageSrc={SumitDP}
             altText="Sumit Kumar"
             captionText="Sumit Kumar"
             containerHeight="400px"
